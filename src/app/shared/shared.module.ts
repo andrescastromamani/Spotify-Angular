@@ -14,6 +14,11 @@ import { HeaderComponent } from './components/header/header.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    SidebarComponent,
+    MediaPlayerComponent,
+    HeaderComponent,
   ]
 })
 export class SharedModule { }
