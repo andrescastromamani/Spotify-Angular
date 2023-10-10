@@ -1,1 +1,13 @@
-<p>track-page works!</p>
+<div class="tracks-page">
+    <app-generic-section 
+        [tracks]="tracksTrending" 
+        [mode]="'small'" 
+        [title]="'¡The best of the music!'">
+    </app-generic-section>
+
+    <app-generic-section 
+        [tracks]="tracksRandom" 
+        [mode]="'big'" 
+        [title]="'Best of the reggae music'">
+    </app-generic-section>
+</div>
