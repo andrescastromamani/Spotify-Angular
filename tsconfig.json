@@ -18,9 +18,18 @@
     "target": "es2017",
     "module": "es2020",
     "paths": {
-      "@core/*": ["src/app/core/*"],
-      "@modules/*": ["src/app/modules/*"],
-      "@shared/*": ["src/app/shared/*"],
+      "@core/*": [
+        "src/app/core/*"
+      ],
+      "@data/*": [
+        "src/app/data/*"
+      ],
+      "@shared/*": [
+        "src/app/shared/*"
+      ],
+      "@modules/*": [
+        "src/app/modules/*"
+      ],
     },
     "lib": [
       "es2018",
