@@ -9,6 +9,7 @@ import { PlaylistHeaderComponent } from './components/playlist-header/playlist-h
 import { PlaylistBodyComponent } from './components/playlist-body/playlist-body.component';
 import { RouterModule } from '@angular/router';
 import { OrderListPipe } from './pipes/order-list.pipe';
+import { ImgBrokenDirective } from './directives/img-broken.directive';
 
 
 
@@ -21,7 +22,8 @@ import { OrderListPipe } from './pipes/order-list.pipe';
     CardPlayerComponent,
     PlaylistHeaderComponent,
     PlaylistBodyComponent,
-    OrderListPipe
+    OrderListPipe,
+    ImgBrokenDirective
   ],
   imports: [
     CommonModule,
@@ -34,7 +36,9 @@ import { OrderListPipe } from './pipes/order-list.pipe';
     GenericSectionComponent,
     CardPlayerComponent,
     PlaylistHeaderComponent,
-    PlaylistBodyComponent
+    PlaylistBodyComponent,
+    OrderListPipe,
+    ImgBrokenDirective
   ]
 })
 export class SharedModule { }
