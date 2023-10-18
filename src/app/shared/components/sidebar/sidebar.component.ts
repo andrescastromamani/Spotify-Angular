@@ -26,12 +26,12 @@ export class SidebarComponent implements OnInit {
       {
         name: 'Search',
         icon: 'uil-search',
-        route: ['/', 'auth']
+        route: ['/', 'history']
       },
       {
         name: 'Your Library',
         icon: 'uil-chart',
-        route: ['/', 'auth']
+        route: ['/', 'favorites']
       }
     ];
 

@@ -1,4 +1,4 @@
-<!-- Diseño del mode (small)-->
+<!-- Small mode-->
 <div *ngIf="mode==='small'" class="card-player player-small">
     <img 
         [src]="track.cover" 
@@ -21,13 +21,13 @@
     </div>
 </div>
 
-<!-- Diseño del mode (big)-->
+<!-- Big mode-->
 <div *ngIf="mode==='big'" class="card-player player-big">
 
     <img 
-        appImgBroken 
+        appImgBroken
         [src]="track.cover" 
-        alt="" 
+        alt="Cover image" 
         class="cover">
 
     <div class="content-player">
